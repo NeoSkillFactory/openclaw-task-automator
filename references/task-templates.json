@@ -1,0 +1,77 @@
+{
+  "templates": [
+    {
+      "name": "find_files_by_extension",
+      "description": "Find files by their extension in a directory",
+      "intent": "file_search",
+      "example_input": "Find all .js files in the src directory",
+      "required_params": ["extension"],
+      "optional_params": ["directory"],
+      "defaults": {
+        "directory": "."
+      }
+    },
+    {
+      "name": "search_text_in_files",
+      "description": "Search for a text pattern in files",
+      "intent": "text_search",
+      "example_input": "Search for 'TODO' in all JavaScript files",
+      "required_params": ["pattern"],
+      "optional_params": ["target"],
+      "defaults": {
+        "target": "."
+      }
+    },
+    {
+      "name": "list_directory",
+      "description": "List files in a directory",
+      "intent": "list_files",
+      "example_input": "List all files in the src directory",
+      "required_params": [],
+      "optional_params": ["directory"],
+      "defaults": {
+        "directory": "."
+      }
+    },
+    {
+      "name": "create_new_file",
+      "description": "Create a new file with optional content",
+      "intent": "create_file",
+      "example_input": "Create a file named config.json",
+      "required_params": ["filename"],
+      "optional_params": ["content"],
+      "defaults": {
+        "content": ""
+      }
+    },
+    {
+      "name": "web_lookup",
+      "description": "Search the web for information",
+      "intent": "web_search",
+      "example_input": "Search the web for 'latest Node.js release'",
+      "required_params": ["query"],
+      "optional_params": [],
+      "defaults": {}
+    },
+    {
+      "name": "backup_files",
+      "description": "Copy files or directories to a backup location",
+      "intent": "backup",
+      "example_input": "Backup the src directory to ./backups",
+      "required_params": ["source"],
+      "optional_params": ["destination"],
+      "defaults": {
+        "destination": "./backup"
+      }
+    },
+    {
+      "name": "schedule_task",
+      "description": "Set up a recurring cron job",
+      "intent": "cron_setup",
+      "example_input": "Set up a cron job that runs a backup every hour",
+      "required_params": ["command", "interval"],
+      "optional_params": [],
+      "defaults": {}
+    }
+  ]
+}

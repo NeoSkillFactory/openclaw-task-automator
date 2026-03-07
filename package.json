@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-task-automator",
+  "version": "1.0.0",
+  "description": "Automatically configures and runs OpenClaw tasks from natural language input",
+  "main": "assets/cli.js",
+  "scripts": {
+    "start": "node assets/cli.js",
+    "test": "node scripts/test.js"
+  },
+  "keywords": ["openclaw", "automation", "nlp", "task-runner"],
+  "license": "MIT"
+}

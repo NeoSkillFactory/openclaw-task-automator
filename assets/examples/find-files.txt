@@ -1,0 +1,22 @@
+$ node assets/cli.js -i "Find all .md files in the current directory" --verbose
+Parsing input: "Find all .md files in the current directory"
+Intent: file_search (confidence: 0.85)
+Params: {
+  "extension": ".md",
+  "directory": "the current directory"
+}
+Mapped command: find the current directory -name *.md -type f
+Description: Find .md files in the current directory
+
+--- Task Execution Report ---
+Status: SUCCESS
+Command: find . -name *.md -type f
+Description: Find .md files in the current directory
+Duration: 12ms
+Exit Code: 0
+---
+Output:
+./README.md
+./SKILL.md
+
+Task completed successfully (12ms)
