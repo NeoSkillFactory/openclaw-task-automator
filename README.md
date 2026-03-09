@@ -2,26 +2,25 @@
 
 ![Audit](https://img.shields.io/badge/audit%3A%20PASS-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-orange)
 
-> A skill that automatically configures and runs OpenClaw tasks based on natural language input to reduce manual setup and hand-holding
+> Automatically configures and runs OpenClaw tasks from natural language input to reduce manual setup friction.
 
-I don't have access to the previous conversation history or context about what was being worked on. Could you please tell me:
+## Description
 
-1. What task you were working on when the previous attempt failed?
-2. What specifically went wrong (timeout, error, incomplete output)?
-3. What you'd like me to do to continue or retry?
+A skill that automatically configures and runs OpenClaw tasks based on natural language input. It parses user requests, maps them to appropriate OpenClaw commands, executes the tasks, and provides structured output with execution summaries.
 
-This will help me pick up exactly where you left off and avoid repeating the same issues.
+## Features
 
-## OpenClaw Marketplace
+- Natural language parsing to extract task intent and parameters
+- Automatic mapping of intents to OpenClaw commands (file operations, web search, agent spawning, cron jobs, backups)
+- Task execution with stdout/stderr capture and exit code validation
+- Report generation with execution summaries
+- CLI interface for direct use and agent integration
 
-This skill is available on [ClawHub](https://clawhub.ai) — the OpenClaw skill marketplace.
-Install it in any OpenClaw agent workspace with:
+## GitHub
 
-```bash
-clawhub install openclaw-task-automator
-```
+Source code: [github.com/NeoSkillFactory/openclaw-task-automator](https://github.com/NeoSkillFactory/openclaw-task-automator)
 
-**Recommended price when commercial:** $20 USD
+**Price suggestion:** $20 USD
 
 ## License
 
