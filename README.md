@@ -6,7 +6,7 @@
 
 ## Description
 
-A skill that automatically configures and runs OpenClaw tasks based on natural language input. It parses user requests, maps them to appropriate OpenClaw commands, executes the tasks, and provides structured output with execution summaries.
+Automatically configures and runs OpenClaw tasks based on natural language input. It parses user requests, maps them to appropriate OpenClaw commands, executes the tasks, and provides structured output with execution summaries.
 
 ## Features
 
