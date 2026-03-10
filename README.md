@@ -20,8 +20,6 @@ A skill that automatically configures and runs OpenClaw tasks based on natural l
 
 Source code: [github.com/NeoSkillFactory/openclaw-task-automator](https://github.com/NeoSkillFactory/openclaw-task-automator)
 
-**Price suggestion:** $20 USD
-
 ## License
 
 MIT © NeoSkillFactory
