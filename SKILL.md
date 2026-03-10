@@ -3,6 +3,15 @@ name: openclaw-task-automator
 description: Automatically configures and runs OpenClaw tasks from natural language input to reduce manual setup friction.
 version: 1.0.0
 author: openclaw
+triggers:
+  - "automate task"
+  - "run task from description"
+  - "execute openclaw task"
+  - "configure and run task"
+  - "natural language task execution"
+  - "auto run command"
+  - "parse and execute task"
+  - "task automator"
 ---
 
 # openclaw-task-automator
